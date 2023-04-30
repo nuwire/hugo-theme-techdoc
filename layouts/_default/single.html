@@ -1,7 +1,9 @@
 {{- define "main" -}}
-<h1>{{ .Title }}</h1>
+<img src="/images/2.png" style="margin-right: 20px; float: left; height: 90px;"/>
+<h1 class="mt-3">{{ .Title }}</h1>
+<br/>
+<hr/>
 {{- partial "table-of-contents.html" . -}}
 {{- .Content -}}
-{{- partial "edit-meta.html" . -}}
 {{- partial "pagination.html" . -}}
 {{- end -}}

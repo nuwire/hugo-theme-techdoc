@@ -726,9 +726,9 @@ main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 75%;
-          flex: 0 0 75%;
-  max-width: 75%;
+      -ms-flex: 0 0 85%;
+          flex: 0 0 85%;
+  max-width: 85%;
 }
 main:only-child {
   -webkit-box-sizing: border-box;
@@ -743,8 +743,8 @@ main:only-child {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 25%;
-          flex: 0 0 25%;
+      -ms-flex: 0 0 15%;
+          flex: 0 0 15%;
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
           order: -1;
@@ -1110,7 +1110,11 @@ figure > figcaption h4 {
 header {
   color: var(--custom-font-color, #fff);
   background: var(--custom-background-color, #000);
+<<<<<<< HEAD
   padding: 0.5rem 1.6666666667rem;
+=======
+  padding: 0.95rem 1.28rem;
+>>>>>>> a877e30 (modified the theme for use with docs)
 }
 header h1 {
   font-size: 140%;

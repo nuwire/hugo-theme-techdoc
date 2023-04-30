@@ -5,8 +5,7 @@
 {{- partial "custom-head.html" . -}}
 </head>
 <body>
-{{- partial "prepend-body.html" . -}}
-<div class="container">
+<div class="container-fluid">
 {{- partial "notification.html" . -}}
 {{- partial "site-header.html" . -}}
 {{- partial "global-menu.html" . -}}
@@ -15,7 +14,6 @@
 {{- block "main" . -}}{{- end -}}
 <footer>
 {{- partial "content-footer.html" . -}}
-{{- partial "powered.html" . -}}
 </footer>
 </main>
 

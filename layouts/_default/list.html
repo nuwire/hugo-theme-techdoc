@@ -1,6 +1,7 @@
 {{- define "main" -}}
+<img src="/images/2.png" style="margin-right: 20px; float: left; height: 80px;"/>
 <h1>{{ .Title }}</h1>
+<hr/>
 {{- .Content -}}
-{{- partial "edit-meta.html" . -}}
 {{- partial "pagination.html" . -}}
 {{- end -}}
